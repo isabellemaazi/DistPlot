@@ -1,0 +1,18 @@
+Package: DistPlot
+Type: Package
+Title: Plot Normal and Student-t Distributions interactively
+Version: 0.1.0
+Authors@R: person(given = "Isabelle",
+         family = "Maazi",
+         role = c("aut", "cre"),
+         email = "isabellle.maazi@uclouvain.be")
+Description: This package can plot Normal and Student-t Distributions and allows the user to have an interactive session with the plots. The user can select, range, mean, standard deviation and degrees of freedom. The plots interact directly with the users choice. There is also an animation available.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    bslib (>= 0.8.0),
+    ggplot2 (>= 3.5.1),
+    shiny (>= 1.10.0),
+    stats (>= 4.4.1)
